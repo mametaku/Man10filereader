@@ -50,9 +50,9 @@ public final class Man10filereader extends JavaPlugin {
                         System.out.println(line);
                     }
                 } catch (FileNotFoundException e) {
-                    e.printStackTrace();
+                    System.out.println("ファイルがありません");
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    System.out.println("ファイルがありません");
                 }
             });
             return true;
@@ -87,9 +87,9 @@ public final class Man10filereader extends JavaPlugin {
                     System.out.println(line);
                 }
             } catch (FileNotFoundException e) {
-                e.printStackTrace();
+                System.out.println("ファイルがありません");
             } catch (IOException e) {
-                e.printStackTrace();
+                System.out.println("ファイルがありません");
             }
         });
         return false;
